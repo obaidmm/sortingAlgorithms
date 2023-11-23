@@ -1,0 +1,47 @@
+Linear Searching:
+- Simplest way to search anything
+- checks each element of the list until a match is found
+- on pre-req for the state of the underlying data structure, NOT TIME EFFICIENT O(n)
+
+Binary Searching:
+- quick and efficient method that uses decrease and conquer approach
+- required the data set to be sorted
+- divides the input into equal halves, with each iteration compares to the search-element
+- if element is found, then search ends, or else continues to look for element by dividing
+- Time Efficiency is O(Log n), more efficient than O(n)
+
+Stability of an Algorithm: PRESERVES THE ORDER OF DUPLICATE KEYS
+
+Bubble Sort (Stable)
+- Simple and easy, steps through the data-set and compares adjacent pairs of elements in each pass
+- elements are swapped if they are in the wrong order (Ascending)
+- will pass through the array and make the last element the largest element
+- it will then pass through and see if something is lower and then switch the indexes
+
+Insertion Sort (Stable)
+- each iteration, removes one element from the list and finds the best location and inserts it there
+- repeats until no input elements to be checked for its correct order
+- mostly used simple sorting algorithm
+- Adaptive, Stable, Online/Dynamic, In-place, Simple Implementation
+- Time efficiency is (O^2) at the worst, O(n) in the best case
+
+
+Selection Sort (Unstable but can be coded to be stable)
+- selects a small data item from list and starts building a sorted list on the left end of the list
+- Repeats the same for the unsorted portion till the whole list is sorted
+- Time efficiency of this is O(n^2)
+
+Merge Sort (Stable)
+- Divide and Conquer approach
+- Repeatedly merges the sub-lists together to produce a new sorted sub-list until all elements are fully merged
+- Time efficiency is O(n log n) as it runs recursively
+
+
+Quick-Sort (Unstable but can be made stable using "Partition-Algorithm")
+- sorts a sequence S using recursive approach based on divide and conquer
+- at least 2 elements
+- there are three components of this
+- First it will have pick a random value from the array, then there will be two other elements
+    it will then sort those values based if they are smaller than the random value that was chosen in the array
+    the other element will then sort is based off elements that are greater than the random value that is chosen
+-
