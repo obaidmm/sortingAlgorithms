@@ -198,9 +198,9 @@ public class ObaidTestingSortingMethods {
 
     public static void main(String[] args) {
 
-/*        myHeader(6,1);
+       myHeader(6,1);
 
-        Integer sz = 5, backUp = 5;
+/*        Integer sz = 5, backUp = 5;
 
         // populate the array with random values from 13-93
         Integer[] randomNumbers = new Integer[sz];
